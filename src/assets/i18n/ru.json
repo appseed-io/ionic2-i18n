@@ -1,0 +1,6 @@
+{
+  "HELLO": "Привет Ionic",
+  "I18N_EXAMPLE": "i18n пример",
+  "STRING_WITH_PARAMS": "Строка с параметром: {{value}}",
+  "INNER_CONTENT": "Inner content с параметром: {{value}}"
+}

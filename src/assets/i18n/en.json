@@ -1,0 +1,6 @@
+{
+  "HELLO": "Hello from Ionic",
+  "I18N_EXAMPLE": "i18n example",
+  "STRING_WITH_PARAMS": "String with a parameter: {{value}}",
+  "INNER_CONTENT": "Inner content with a param: {{value}}"
+}
