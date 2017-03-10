@@ -9,7 +9,7 @@ import { GoogleMapsModule } from '../pages/google-maps/google-maps.module';
 import { HomeModule } from '../pages/home/home.module';
 import { SlideBoxModule } from '../pages/slide-box/slide-box.module';
 import { WordpressModule } from '../pages/wordpress/wordpress.module';
-import { I18nModule } from '../pages/i18n-capabilities/i18n-capabilities.module';
+import { I18nDemoModule } from '../pages/i18n-demo/i18n-demo.module';
 import { TranslateModule } from 'ng2-translate/ng2-translate';
 import { TranslateLoader, TranslateStaticLoader } from 'ng2-translate/src/translate.service';
 import { Http } from '@angular/http';
@@ -36,7 +36,7 @@ export function createTranslateLoader(http: Http) {
 		HomeModule,
 		SlideBoxModule,
 		WordpressModule,
-		I18nModule
+		I18nDemoModule
 	],
 	bootstrap: [IonicApp],
 	entryComponents: [

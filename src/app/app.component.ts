@@ -10,7 +10,7 @@ import { WordpressListPage } from '../pages/wordpress/list/wordpress.list.page';
 import { SlideBoxPage } from '../pages/slide-box/slide-box.page';
 import { GoogleMapsPage } from '../pages/google-maps/google-maps.page';
 import { ComponentsListPage } from '../pages/components/list/components.list.page';
-import { I18nPage } from '../pages/i18n-capabilities/i18n.page';
+import { I18nDemoPage } from '../pages/i18n-demo/i18n-demo.page';
 
 @Component({
 	templateUrl: 'app.html'
@@ -38,7 +38,7 @@ export class MyApp {
 			{ title: 'Slides', component: SlideBoxPage, icon: 'swap' },
 			{ title: 'Google maps', component: GoogleMapsPage, icon: 'map' },
 			{ title: 'Components', component: ComponentsListPage, icon: 'grid' },
-			{ title: 'i18n', component: I18nPage, icon: 'globe' }
+			{ title: 'i18n', component: I18nDemoPage, icon: 'globe' }
 		];
 
 		this.rootPage = HomePage;
